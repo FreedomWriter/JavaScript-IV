@@ -64,7 +64,7 @@ class Student extends Person {
     }//sprint
 
     graduate() {
-        this.score >= 70 ? console.log(`Congradulations ${this.name}, you are an offical graduate!`) : console.log(`You're not quite there yet ${this.name}, but keep working any you will be ready soon!`)
+        this.score >= 70 ? console.log(`Congradulations ${this.name}, you are an offical graduate!`) : console.log(`You're not quite there yet ${this.name}, but keep working and you will be ready soon!`)
     }
 
 }//Student
